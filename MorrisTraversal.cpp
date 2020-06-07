@@ -41,6 +41,6 @@ int main()
 {
 	auto root = new TreeNode(1, new TreeNode(2, new TreeNode(3), new TreeNode(4, new TreeNode(9), nullptr)), new TreeNode(5, new TreeNode(6), nullptr));
 	MorrisTraversal(root);
-  return 0;
+  	return 0;
 }
 
